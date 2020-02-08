@@ -3,6 +3,6 @@ launch main.py
 Requirements:
 python 3.7
 Modules which i have installed:
-  \npip install PyQt5 pyside2
-  \npip install numpy
+  pip install PyQt5 pyside2
+  pip install numpy
   
