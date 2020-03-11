@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>659</width>
-    <height>510</height>
+    <width>866</width>
+    <height>514</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -115,8 +115,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton4">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>60</y>
+     <x>140</x>
+     <y>20</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -145,8 +145,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton5">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>60</y>
+     <x>180</x>
+     <y>20</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -175,7 +175,7 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton6">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>20</x>
      <y>60</y>
      <width>41</width>
      <height>41</height>
@@ -205,8 +205,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton7">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>100</y>
+     <x>60</x>
+     <y>60</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -235,8 +235,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton8">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>100</y>
+     <x>100</x>
+     <y>60</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -265,8 +265,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton9">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>100</y>
+     <x>140</x>
+     <y>60</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -295,8 +295,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton10">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>140</y>
+     <x>180</x>
+     <y>60</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -325,8 +325,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton11">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>140</y>
+     <x>20</x>
+     <y>100</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -355,8 +355,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton12">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>140</y>
+     <x>60</x>
+     <y>100</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -385,8 +385,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton13">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>180</y>
+     <x>100</x>
+     <y>100</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -415,8 +415,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton14">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>180</y>
+     <x>140</x>
+     <y>100</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -445,8 +445,8 @@ QPushButton:checked{
   <widget class="QPushButton" name="pushButton15">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>180</y>
+     <x>180</x>
+     <y>100</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -488,9 +488,9 @@ QPushButton:checked{
   <widget class="QLabel" name="labelresult">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>20</y>
-     <width>171</width>
+     <x>280</x>
+     <y>10</y>
+     <width>471</width>
      <height>31</height>
     </rect>
    </property>
@@ -501,16 +501,16 @@ QPushButton:checked{
     </font>
    </property>
    <property name="text">
-    <string>000000000000000</string>
+    <string>00000000000000000000000000000000000</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>240</y>
+     <x>50</x>
+     <y>450</y>
      <width>101</width>
-     <height>131</height>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -527,7 +527,7 @@ QPushButton:checked{
     <rect>
      <x>20</x>
      <y>410</y>
-     <width>631</width>
+     <width>811</width>
      <height>23</height>
     </rect>
    </property>
@@ -577,9 +577,9 @@ QPushButton:checked{
   <widget class="QTextEdit" name="console">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>240</x>
      <y>50</y>
-     <width>461</width>
+     <width>581</width>
      <height>341</height>
     </rect>
    </property>
@@ -594,6 +594,606 @@ QPushButton:checked{
    </property>
    <property name="readOnly">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton16">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton17">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>140</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton18">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton19">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton20">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>140</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton21">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton22">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton23">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton24">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>180</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton25">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>180</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton26">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton27">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>220</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton28">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>220</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton29">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>220</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton30">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>220</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton31">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton32">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>260</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton33">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>260</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton34">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton35">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>260</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color:white;
+}
+QPushButton:checked{
+	background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
    </property>
   </widget>
  </widget>

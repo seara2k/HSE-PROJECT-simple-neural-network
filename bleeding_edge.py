@@ -12,7 +12,7 @@ class NeuralNetwork():
 
         # Set synaptic weights to a 3x1 matrix,
         # with values from -1 to 1 and mean 0
-        self.synaptic_weights = 2 * np.random.random((10, 15, 1)) - 1
+        self.synaptic_weights = 2 * np.random.random((10, 35, 1)) - 1
 
     def sigmoid(self, x):
         """
@@ -82,46 +82,3 @@ class NeuralNetwork():
         inputs = inputs.astype(float)
         output = self.sigmoid(np.dot(inputs, self.synaptic_weights[number]))
         return output
-
-
-if __name__ == "__main__":
-
-    # Initialize the single neuron neural network
-    neural_network = NeuralNetwork()
-
-    #print("Random starting synaptic weights: ")
-   # print(neural_network.synaptic_weights)
-
-    # The training set, with 4 examples consisting of 3
-    # input values and 1 output value
-    training_inputs = np.array([[1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1],
-                                [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1],
-                                [1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1],
-                                [1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1],
-                                [1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1],
-                                [1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1],
-                                [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1],
-                                [1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1],
-                                [1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1],
-                                [1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1]])
-
-    training_outputs = np.array([[[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
-                                 [[0, 1, 0, 0, 0, 0, 0, 0, 0, 0]],
-                                 [[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]],
-                                 [[0, 0, 0, 1, 0, 0, 0, 0, 0, 0]],
-                                 [[0, 0, 0, 0, 1, 0, 0, 0, 0, 0]],
-                                 [[0, 0, 0, 0, 0, 1, 0, 0, 0, 0]],
-                                 [[0, 0, 0, 0, 0, 0, 1, 0, 0, 0]],
-                                 [[0, 0, 0, 0, 0, 0, 0, 1, 0, 0]],
-                                 [[0, 0, 0, 0, 0, 0, 0, 0, 1, 0]],
-                                 [[0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]])
-
-    # Train the neural network
-    neural_network.train(training_inputs, training_outputs, 20000)
-
-    print(neural_network.synaptic_weights)
-
-    print("Output data: ")
-    for j in range(10):
-        print(j, " : %.4f" % neural_network.think(
-            np.array([1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1]), j))
