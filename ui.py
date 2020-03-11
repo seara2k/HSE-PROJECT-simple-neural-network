@@ -14,13 +14,16 @@ class Ui_Form(object):
 
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(582, 396)
+        Form.resize(659, 510)
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("Dawnbringer.jpg"),
                        QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Form.setWindowIcon(icon)
+        Form.setStyleSheet("QWidget{\n"
+                           "    background-color:;\n"
+                           "}")
         self.pushButton1 = QtWidgets.QPushButton(Form)
-        self.pushButton1.setGeometry(QtCore.QRect(30, 30, 41, 41))
+        self.pushButton1.setGeometry(QtCore.QRect(20, 20, 41, 41))
         self.pushButton1.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -33,7 +36,7 @@ class Ui_Form(object):
         self.pushButton1.setAutoDefault(False)
         self.pushButton1.setObjectName("pushButton1")
         self.pushButton2 = QtWidgets.QPushButton(Form)
-        self.pushButton2.setGeometry(QtCore.QRect(70, 30, 41, 41))
+        self.pushButton2.setGeometry(QtCore.QRect(60, 20, 41, 41))
         self.pushButton2.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -46,7 +49,7 @@ class Ui_Form(object):
         self.pushButton2.setAutoDefault(False)
         self.pushButton2.setObjectName("pushButton2")
         self.pushButton3 = QtWidgets.QPushButton(Form)
-        self.pushButton3.setGeometry(QtCore.QRect(110, 30, 41, 41))
+        self.pushButton3.setGeometry(QtCore.QRect(100, 20, 41, 41))
         self.pushButton3.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -59,7 +62,7 @@ class Ui_Form(object):
         self.pushButton3.setAutoDefault(False)
         self.pushButton3.setObjectName("pushButton3")
         self.pushButton4 = QtWidgets.QPushButton(Form)
-        self.pushButton4.setGeometry(QtCore.QRect(30, 70, 41, 41))
+        self.pushButton4.setGeometry(QtCore.QRect(20, 60, 41, 41))
         self.pushButton4.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -72,7 +75,7 @@ class Ui_Form(object):
         self.pushButton4.setAutoDefault(False)
         self.pushButton4.setObjectName("pushButton4")
         self.pushButton5 = QtWidgets.QPushButton(Form)
-        self.pushButton5.setGeometry(QtCore.QRect(70, 70, 41, 41))
+        self.pushButton5.setGeometry(QtCore.QRect(60, 60, 41, 41))
         self.pushButton5.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -85,7 +88,7 @@ class Ui_Form(object):
         self.pushButton5.setAutoDefault(False)
         self.pushButton5.setObjectName("pushButton5")
         self.pushButton6 = QtWidgets.QPushButton(Form)
-        self.pushButton6.setGeometry(QtCore.QRect(110, 70, 41, 41))
+        self.pushButton6.setGeometry(QtCore.QRect(100, 60, 41, 41))
         self.pushButton6.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -98,7 +101,7 @@ class Ui_Form(object):
         self.pushButton6.setAutoDefault(False)
         self.pushButton6.setObjectName("pushButton6")
         self.pushButton7 = QtWidgets.QPushButton(Form)
-        self.pushButton7.setGeometry(QtCore.QRect(30, 110, 41, 41))
+        self.pushButton7.setGeometry(QtCore.QRect(20, 100, 41, 41))
         self.pushButton7.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -111,7 +114,7 @@ class Ui_Form(object):
         self.pushButton7.setAutoDefault(False)
         self.pushButton7.setObjectName("pushButton7")
         self.pushButton8 = QtWidgets.QPushButton(Form)
-        self.pushButton8.setGeometry(QtCore.QRect(70, 110, 41, 41))
+        self.pushButton8.setGeometry(QtCore.QRect(60, 100, 41, 41))
         self.pushButton8.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -124,7 +127,7 @@ class Ui_Form(object):
         self.pushButton8.setAutoDefault(False)
         self.pushButton8.setObjectName("pushButton8")
         self.pushButton9 = QtWidgets.QPushButton(Form)
-        self.pushButton9.setGeometry(QtCore.QRect(110, 110, 41, 41))
+        self.pushButton9.setGeometry(QtCore.QRect(100, 100, 41, 41))
         self.pushButton9.setStyleSheet("QPushButton{\n"
                                        "    background-color:white;\n"
                                        "}\n"
@@ -137,7 +140,7 @@ class Ui_Form(object):
         self.pushButton9.setAutoDefault(False)
         self.pushButton9.setObjectName("pushButton9")
         self.pushButton10 = QtWidgets.QPushButton(Form)
-        self.pushButton10.setGeometry(QtCore.QRect(30, 150, 41, 41))
+        self.pushButton10.setGeometry(QtCore.QRect(20, 140, 41, 41))
         self.pushButton10.setStyleSheet("QPushButton{\n"
                                         "    background-color:white;\n"
                                         "}\n"
@@ -150,7 +153,7 @@ class Ui_Form(object):
         self.pushButton10.setAutoDefault(False)
         self.pushButton10.setObjectName("pushButton10")
         self.pushButton11 = QtWidgets.QPushButton(Form)
-        self.pushButton11.setGeometry(QtCore.QRect(70, 150, 41, 41))
+        self.pushButton11.setGeometry(QtCore.QRect(60, 140, 41, 41))
         self.pushButton11.setStyleSheet("QPushButton{\n"
                                         "    background-color:white;\n"
                                         "}\n"
@@ -163,7 +166,7 @@ class Ui_Form(object):
         self.pushButton11.setAutoDefault(False)
         self.pushButton11.setObjectName("pushButton11")
         self.pushButton12 = QtWidgets.QPushButton(Form)
-        self.pushButton12.setGeometry(QtCore.QRect(110, 150, 41, 41))
+        self.pushButton12.setGeometry(QtCore.QRect(100, 140, 41, 41))
         self.pushButton12.setStyleSheet("QPushButton{\n"
                                         "    background-color:white;\n"
                                         "}\n"
@@ -176,7 +179,7 @@ class Ui_Form(object):
         self.pushButton12.setAutoDefault(False)
         self.pushButton12.setObjectName("pushButton12")
         self.pushButton13 = QtWidgets.QPushButton(Form)
-        self.pushButton13.setGeometry(QtCore.QRect(30, 190, 41, 41))
+        self.pushButton13.setGeometry(QtCore.QRect(20, 180, 41, 41))
         self.pushButton13.setStyleSheet("QPushButton{\n"
                                         "    background-color:white;\n"
                                         "}\n"
@@ -189,7 +192,7 @@ class Ui_Form(object):
         self.pushButton13.setAutoDefault(False)
         self.pushButton13.setObjectName("pushButton13")
         self.pushButton14 = QtWidgets.QPushButton(Form)
-        self.pushButton14.setGeometry(QtCore.QRect(70, 190, 41, 41))
+        self.pushButton14.setGeometry(QtCore.QRect(60, 180, 41, 41))
         self.pushButton14.setStyleSheet("QPushButton{\n"
                                         "    background-color:white;\n"
                                         "}\n"
@@ -202,7 +205,7 @@ class Ui_Form(object):
         self.pushButton14.setAutoDefault(False)
         self.pushButton14.setObjectName("pushButton14")
         self.pushButton15 = QtWidgets.QPushButton(Form)
-        self.pushButton15.setGeometry(QtCore.QRect(110, 190, 41, 41))
+        self.pushButton15.setGeometry(QtCore.QRect(100, 180, 41, 41))
         self.pushButton15.setStyleSheet("QPushButton{\n"
                                         "    background-color:white;\n"
                                         "}\n"
@@ -215,34 +218,44 @@ class Ui_Form(object):
         self.pushButton15.setAutoDefault(False)
         self.pushButton15.setObjectName("pushButton15")
         self.goButton = QtWidgets.QPushButton(Form)
-        self.goButton.setGeometry(QtCore.QRect(440, 320, 111, 51))
+        self.goButton.setGeometry(QtCore.QRect(230, 450, 111, 51))
         self.goButton.setObjectName("goButton")
         self.labelresult = QtWidgets.QLabel(Form)
-        self.labelresult.setGeometry(QtCore.QRect(330, 70, 131, 20))
+        self.labelresult.setGeometry(QtCore.QRect(150, 20, 171, 31))
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        self.labelresult.setFont(font)
         self.labelresult.setObjectName("labelresult")
         self.label = QtWidgets.QLabel(Form)
-        self.label.setGeometry(QtCore.QRect(30, 320, 391, 71))
+        self.label.setGeometry(QtCore.QRect(30, 240, 101, 131))
         font = QtGui.QFont()
         font.setPointSize(36)
         self.label.setFont(font)
         self.label.setText("")
         self.label.setObjectName("label")
         self.progressBar = QtWidgets.QProgressBar(Form)
-        self.progressBar.setGeometry(QtCore.QRect(30, 270, 531, 23))
+        self.progressBar.setGeometry(QtCore.QRect(20, 410, 631, 23))
         self.progressBar.setProperty("value", 0)
         self.progressBar.setObjectName("progressBar")
-        self.lineEdit = QtWidgets.QLineEdit(Form)
-        self.lineEdit.setGeometry(QtCore.QRect(330, 30, 113, 22))
-        self.lineEdit.setObjectName("lineEdit")
         self.clearButton = QtWidgets.QPushButton(Form)
-        self.clearButton.setGeometry(QtCore.QRect(340, 200, 93, 28))
+        self.clearButton.setGeometry(QtCore.QRect(450, 470, 93, 28))
         self.clearButton.setObjectName("clearButton")
         self.exitButton = QtWidgets.QPushButton(Form)
-        self.exitButton.setGeometry(QtCore.QRect(220, 200, 93, 28))
+        self.exitButton.setGeometry(QtCore.QRect(550, 470, 93, 28))
         self.exitButton.setObjectName("exitButton")
         self.teachButton = QtWidgets.QPushButton(Form)
-        self.teachButton.setGeometry(QtCore.QRect(460, 200, 93, 28))
+        self.teachButton.setGeometry(QtCore.QRect(350, 470, 93, 28))
         self.teachButton.setObjectName("teachButton")
+        self.console = QtWidgets.QTextEdit(Form)
+        self.console.setGeometry(QtCore.QRect(150, 50, 461, 341))
+        font = QtGui.QFont()
+        font.setFamily("Consolas")
+        font.setPointSize(14)
+        self.console.setFont(font)
+        self.console.setAcceptDrops(True)
+        self.console.setReadOnly(True)
+        self.console.setObjectName("console")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -255,13 +268,3 @@ class Ui_Form(object):
         self.clearButton.setText(_translate("Form", "Clear"))
         self.exitButton.setText(_translate("Form", "Exit"))
         self.teachButton.setText(_translate("Form", "Teach!"))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    Form = QtWidgets.QWidget()
-    ui = Ui_Form()
-    ui.setupUi(Form)
-    Form.show()
-    sys.exit(app.exec_())
