@@ -70,7 +70,6 @@ def teach(k):
                 neural_network.trainpro(training_inputs, training_outputs, j)
 
         ui.console.append("Weights found")
-        QtTest.QTest.qWait(2000)
         k[0] = '1'
     else:
         ui.console.append("Already teached")
@@ -83,7 +82,7 @@ def go(k, neural_network):
     ui.console.append('Chances')
     for i in range(10):
         prediction[i] = neural_network.think(np.array(neuro_input_mass), i)
-        outputstr = str(i) + " : %.4f" % prediction[i]
+        outputstr = str(i) + " : %0.2f" % (prediction[i]*100) +'%'
         ui.console.append(outputstr)
     neuro_output_max = max(prediction)
     for j in range(10):
