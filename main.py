@@ -6,6 +6,9 @@ import numpy as np
 
 
 def button_function(button_name):
+    """
+    Функция обработки вводных данных
+    """
     if (len(button_name) == 11):
         button_number = button_name[len(button_name) - 1]
     else:
@@ -24,6 +27,9 @@ def button_function(button_name):
 
 
 def clear():
+    """
+    Функция очистки поля
+    """
     for i in range(15):
         button_name = 'pushButton' + str(i + 1)
         if getattr(ui, button_name).isChecked():
@@ -36,6 +42,10 @@ def clear():
 
 
 def teach(k):
+    """
+    Функция обучения нейросети, в главной программе нужна лишь для того чтобы
+    работал прогресс бар
+    """
     if (k[0] == '0'):
 
         training_inputs = np.array([[1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1],
@@ -76,6 +86,9 @@ def teach(k):
 
 
 def go(k, neural_network):
+    """
+    Функция вызывающая функцию think и выводящая результат работы нейросети
+    """
     neuro_input = ui.labelresult.text()
     neuro_input_mass = list(neuro_input)
     prediction = np.random.random((10))
@@ -95,20 +108,19 @@ def go(k, neural_network):
         outputstr = 'Not teached number is ' + str(final)
     ui.console.append(outputstr)
 
-
+# Создание окна приложения
 app = QtWidgets.QApplication(sys.argv)
-
-
 Form = QtWidgets.QWidget()
 ui = Ui_Form()
 ui.setupUi(Form)
 Form.show()
 
-
+# Нужные переменные
 k = list('0')
 global neural_network
 neural_network = NeuralNetwork()
 
+# Вызов функция при нажатии на соответствующие кнопки
 ui.pushButton1.toggled.connect(lambda: button_function('pushButton1'))
 ui.pushButton2.toggled.connect(lambda: button_function('pushButton2'))
 ui.pushButton3.toggled.connect(lambda: button_function('pushButton3'))
