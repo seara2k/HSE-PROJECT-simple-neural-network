@@ -1,7 +1,7 @@
 # searas-simple-neural-network
 Нейросеть Вячеслав Литвинов БИВ193
-Альфа версия с полем 7х5
-field 7x5
+
+Альфа версия с полем 7х5(Field 7x5)
 ## Requirements(требования):
 Python 3.7
 
