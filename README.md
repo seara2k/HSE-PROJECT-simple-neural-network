@@ -6,10 +6,11 @@ field 7x5
 Python 3.7
 
 Modules(библиотеки):
-    '''
+    
     pip install PyQt5 pyside2
     pip install numpy
-    '''
+    
   
 Или же просто:
+
     pip install -r requirements.txt
