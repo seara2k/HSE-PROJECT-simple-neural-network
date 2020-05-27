@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>866</width>
+    <width>878</width>
     <height>514</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>seara's omg neuroset</string>
+   <string>neural network</string>
   </property>
   <property name="windowIcon">
    <iconset>
@@ -527,7 +527,7 @@ QPushButton:checked{
     <rect>
      <x>20</x>
      <y>410</y>
-     <width>811</width>
+     <width>841</width>
      <height>23</height>
     </rect>
    </property>
@@ -539,9 +539,9 @@ QPushButton:checked{
    <property name="geometry">
     <rect>
      <x>450</x>
-     <y>470</y>
-     <width>93</width>
-     <height>28</height>
+     <y>450</y>
+     <width>91</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">
@@ -552,9 +552,9 @@ QPushButton:checked{
    <property name="geometry">
     <rect>
      <x>550</x>
-     <y>470</y>
-     <width>93</width>
-     <height>28</height>
+     <y>450</y>
+     <width>101</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">
@@ -565,9 +565,9 @@ QPushButton:checked{
    <property name="geometry">
     <rect>
      <x>350</x>
-     <y>470</y>
-     <width>93</width>
-     <height>28</height>
+     <y>450</y>
+     <width>91</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="text">

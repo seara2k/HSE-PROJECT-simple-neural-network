@@ -11,23 +11,25 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_Form(object):
+
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(866, 514)
+        Form.resize(878, 514)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Dawnbringer.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("Dawnbringer.jpg"),
+                       QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Form.setWindowIcon(icon)
         Form.setStyleSheet("QWidget{\n"
-"    background-color:;\n"
-"}")
+                           "    background-color:;\n"
+                           "}")
         self.pushButton1 = QtWidgets.QPushButton(Form)
         self.pushButton1.setGeometry(QtCore.QRect(20, 20, 41, 41))
         self.pushButton1.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton1.setText("")
         self.pushButton1.setCheckable(True)
         self.pushButton1.setAutoExclusive(False)
@@ -36,11 +38,11 @@ class Ui_Form(object):
         self.pushButton2 = QtWidgets.QPushButton(Form)
         self.pushButton2.setGeometry(QtCore.QRect(60, 20, 41, 41))
         self.pushButton2.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton2.setText("")
         self.pushButton2.setCheckable(True)
         self.pushButton2.setAutoExclusive(False)
@@ -49,11 +51,11 @@ class Ui_Form(object):
         self.pushButton3 = QtWidgets.QPushButton(Form)
         self.pushButton3.setGeometry(QtCore.QRect(100, 20, 41, 41))
         self.pushButton3.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton3.setText("")
         self.pushButton3.setCheckable(True)
         self.pushButton3.setAutoExclusive(False)
@@ -62,11 +64,11 @@ class Ui_Form(object):
         self.pushButton4 = QtWidgets.QPushButton(Form)
         self.pushButton4.setGeometry(QtCore.QRect(140, 20, 41, 41))
         self.pushButton4.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton4.setText("")
         self.pushButton4.setCheckable(True)
         self.pushButton4.setAutoExclusive(False)
@@ -75,11 +77,11 @@ class Ui_Form(object):
         self.pushButton5 = QtWidgets.QPushButton(Form)
         self.pushButton5.setGeometry(QtCore.QRect(180, 20, 41, 41))
         self.pushButton5.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton5.setText("")
         self.pushButton5.setCheckable(True)
         self.pushButton5.setAutoExclusive(False)
@@ -88,11 +90,11 @@ class Ui_Form(object):
         self.pushButton6 = QtWidgets.QPushButton(Form)
         self.pushButton6.setGeometry(QtCore.QRect(20, 60, 41, 41))
         self.pushButton6.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton6.setText("")
         self.pushButton6.setCheckable(True)
         self.pushButton6.setAutoExclusive(False)
@@ -101,11 +103,11 @@ class Ui_Form(object):
         self.pushButton7 = QtWidgets.QPushButton(Form)
         self.pushButton7.setGeometry(QtCore.QRect(60, 60, 41, 41))
         self.pushButton7.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton7.setText("")
         self.pushButton7.setCheckable(True)
         self.pushButton7.setAutoExclusive(False)
@@ -114,11 +116,11 @@ class Ui_Form(object):
         self.pushButton8 = QtWidgets.QPushButton(Form)
         self.pushButton8.setGeometry(QtCore.QRect(100, 60, 41, 41))
         self.pushButton8.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton8.setText("")
         self.pushButton8.setCheckable(True)
         self.pushButton8.setAutoExclusive(False)
@@ -127,11 +129,11 @@ class Ui_Form(object):
         self.pushButton9 = QtWidgets.QPushButton(Form)
         self.pushButton9.setGeometry(QtCore.QRect(140, 60, 41, 41))
         self.pushButton9.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                       "    background-color:white;\n"
+                                       "}\n"
+                                       "QPushButton:checked{\n"
+                                       "    background-color:black;\n"
+                                       "}")
         self.pushButton9.setText("")
         self.pushButton9.setCheckable(True)
         self.pushButton9.setAutoExclusive(False)
@@ -140,11 +142,11 @@ class Ui_Form(object):
         self.pushButton10 = QtWidgets.QPushButton(Form)
         self.pushButton10.setGeometry(QtCore.QRect(180, 60, 41, 41))
         self.pushButton10.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton10.setText("")
         self.pushButton10.setCheckable(True)
         self.pushButton10.setAutoExclusive(False)
@@ -153,11 +155,11 @@ class Ui_Form(object):
         self.pushButton11 = QtWidgets.QPushButton(Form)
         self.pushButton11.setGeometry(QtCore.QRect(20, 100, 41, 41))
         self.pushButton11.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton11.setText("")
         self.pushButton11.setCheckable(True)
         self.pushButton11.setAutoExclusive(False)
@@ -166,11 +168,11 @@ class Ui_Form(object):
         self.pushButton12 = QtWidgets.QPushButton(Form)
         self.pushButton12.setGeometry(QtCore.QRect(60, 100, 41, 41))
         self.pushButton12.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton12.setText("")
         self.pushButton12.setCheckable(True)
         self.pushButton12.setAutoExclusive(False)
@@ -179,11 +181,11 @@ class Ui_Form(object):
         self.pushButton13 = QtWidgets.QPushButton(Form)
         self.pushButton13.setGeometry(QtCore.QRect(100, 100, 41, 41))
         self.pushButton13.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton13.setText("")
         self.pushButton13.setCheckable(True)
         self.pushButton13.setAutoExclusive(False)
@@ -192,11 +194,11 @@ class Ui_Form(object):
         self.pushButton14 = QtWidgets.QPushButton(Form)
         self.pushButton14.setGeometry(QtCore.QRect(140, 100, 41, 41))
         self.pushButton14.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton14.setText("")
         self.pushButton14.setCheckable(True)
         self.pushButton14.setAutoExclusive(False)
@@ -205,11 +207,11 @@ class Ui_Form(object):
         self.pushButton15 = QtWidgets.QPushButton(Form)
         self.pushButton15.setGeometry(QtCore.QRect(180, 100, 41, 41))
         self.pushButton15.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton15.setText("")
         self.pushButton15.setCheckable(True)
         self.pushButton15.setAutoExclusive(False)
@@ -233,17 +235,17 @@ class Ui_Form(object):
         self.label.setText("")
         self.label.setObjectName("label")
         self.progressBar = QtWidgets.QProgressBar(Form)
-        self.progressBar.setGeometry(QtCore.QRect(20, 410, 811, 23))
+        self.progressBar.setGeometry(QtCore.QRect(20, 410, 841, 23))
         self.progressBar.setProperty("value", 0)
         self.progressBar.setObjectName("progressBar")
         self.clearButton = QtWidgets.QPushButton(Form)
-        self.clearButton.setGeometry(QtCore.QRect(450, 470, 93, 28))
+        self.clearButton.setGeometry(QtCore.QRect(450, 450, 91, 51))
         self.clearButton.setObjectName("clearButton")
         self.exitButton = QtWidgets.QPushButton(Form)
-        self.exitButton.setGeometry(QtCore.QRect(550, 470, 93, 28))
+        self.exitButton.setGeometry(QtCore.QRect(550, 450, 101, 51))
         self.exitButton.setObjectName("exitButton")
         self.teachButton = QtWidgets.QPushButton(Form)
-        self.teachButton.setGeometry(QtCore.QRect(350, 470, 93, 28))
+        self.teachButton.setGeometry(QtCore.QRect(350, 450, 91, 51))
         self.teachButton.setObjectName("teachButton")
         self.console = QtWidgets.QTextEdit(Form)
         self.console.setGeometry(QtCore.QRect(240, 50, 581, 341))
@@ -257,11 +259,11 @@ class Ui_Form(object):
         self.pushButton16 = QtWidgets.QPushButton(Form)
         self.pushButton16.setGeometry(QtCore.QRect(20, 140, 41, 41))
         self.pushButton16.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton16.setText("")
         self.pushButton16.setCheckable(True)
         self.pushButton16.setAutoExclusive(False)
@@ -270,11 +272,11 @@ class Ui_Form(object):
         self.pushButton17 = QtWidgets.QPushButton(Form)
         self.pushButton17.setGeometry(QtCore.QRect(60, 140, 41, 41))
         self.pushButton17.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton17.setText("")
         self.pushButton17.setCheckable(True)
         self.pushButton17.setAutoExclusive(False)
@@ -283,11 +285,11 @@ class Ui_Form(object):
         self.pushButton18 = QtWidgets.QPushButton(Form)
         self.pushButton18.setGeometry(QtCore.QRect(100, 140, 41, 41))
         self.pushButton18.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton18.setText("")
         self.pushButton18.setCheckable(True)
         self.pushButton18.setAutoExclusive(False)
@@ -296,11 +298,11 @@ class Ui_Form(object):
         self.pushButton19 = QtWidgets.QPushButton(Form)
         self.pushButton19.setGeometry(QtCore.QRect(140, 140, 41, 41))
         self.pushButton19.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton19.setText("")
         self.pushButton19.setCheckable(True)
         self.pushButton19.setAutoExclusive(False)
@@ -309,11 +311,11 @@ class Ui_Form(object):
         self.pushButton20 = QtWidgets.QPushButton(Form)
         self.pushButton20.setGeometry(QtCore.QRect(180, 140, 41, 41))
         self.pushButton20.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton20.setText("")
         self.pushButton20.setCheckable(True)
         self.pushButton20.setAutoExclusive(False)
@@ -322,11 +324,11 @@ class Ui_Form(object):
         self.pushButton21 = QtWidgets.QPushButton(Form)
         self.pushButton21.setGeometry(QtCore.QRect(20, 180, 41, 41))
         self.pushButton21.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton21.setText("")
         self.pushButton21.setCheckable(True)
         self.pushButton21.setAutoExclusive(False)
@@ -335,11 +337,11 @@ class Ui_Form(object):
         self.pushButton22 = QtWidgets.QPushButton(Form)
         self.pushButton22.setGeometry(QtCore.QRect(60, 180, 41, 41))
         self.pushButton22.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton22.setText("")
         self.pushButton22.setCheckable(True)
         self.pushButton22.setAutoExclusive(False)
@@ -348,11 +350,11 @@ class Ui_Form(object):
         self.pushButton23 = QtWidgets.QPushButton(Form)
         self.pushButton23.setGeometry(QtCore.QRect(100, 180, 41, 41))
         self.pushButton23.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton23.setText("")
         self.pushButton23.setCheckable(True)
         self.pushButton23.setAutoExclusive(False)
@@ -361,11 +363,11 @@ class Ui_Form(object):
         self.pushButton24 = QtWidgets.QPushButton(Form)
         self.pushButton24.setGeometry(QtCore.QRect(140, 180, 41, 41))
         self.pushButton24.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton24.setText("")
         self.pushButton24.setCheckable(True)
         self.pushButton24.setAutoExclusive(False)
@@ -374,11 +376,11 @@ class Ui_Form(object):
         self.pushButton25 = QtWidgets.QPushButton(Form)
         self.pushButton25.setGeometry(QtCore.QRect(180, 180, 41, 41))
         self.pushButton25.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton25.setText("")
         self.pushButton25.setCheckable(True)
         self.pushButton25.setAutoExclusive(False)
@@ -387,11 +389,11 @@ class Ui_Form(object):
         self.pushButton26 = QtWidgets.QPushButton(Form)
         self.pushButton26.setGeometry(QtCore.QRect(20, 220, 41, 41))
         self.pushButton26.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton26.setText("")
         self.pushButton26.setCheckable(True)
         self.pushButton26.setAutoExclusive(False)
@@ -400,11 +402,11 @@ class Ui_Form(object):
         self.pushButton27 = QtWidgets.QPushButton(Form)
         self.pushButton27.setGeometry(QtCore.QRect(60, 220, 41, 41))
         self.pushButton27.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton27.setText("")
         self.pushButton27.setCheckable(True)
         self.pushButton27.setAutoExclusive(False)
@@ -413,11 +415,11 @@ class Ui_Form(object):
         self.pushButton28 = QtWidgets.QPushButton(Form)
         self.pushButton28.setGeometry(QtCore.QRect(100, 220, 41, 41))
         self.pushButton28.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton28.setText("")
         self.pushButton28.setCheckable(True)
         self.pushButton28.setAutoExclusive(False)
@@ -426,11 +428,11 @@ class Ui_Form(object):
         self.pushButton29 = QtWidgets.QPushButton(Form)
         self.pushButton29.setGeometry(QtCore.QRect(140, 220, 41, 41))
         self.pushButton29.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton29.setText("")
         self.pushButton29.setCheckable(True)
         self.pushButton29.setAutoExclusive(False)
@@ -439,11 +441,11 @@ class Ui_Form(object):
         self.pushButton30 = QtWidgets.QPushButton(Form)
         self.pushButton30.setGeometry(QtCore.QRect(180, 220, 41, 41))
         self.pushButton30.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton30.setText("")
         self.pushButton30.setCheckable(True)
         self.pushButton30.setAutoExclusive(False)
@@ -452,11 +454,11 @@ class Ui_Form(object):
         self.pushButton31 = QtWidgets.QPushButton(Form)
         self.pushButton31.setGeometry(QtCore.QRect(20, 260, 41, 41))
         self.pushButton31.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton31.setText("")
         self.pushButton31.setCheckable(True)
         self.pushButton31.setAutoExclusive(False)
@@ -465,11 +467,11 @@ class Ui_Form(object):
         self.pushButton32 = QtWidgets.QPushButton(Form)
         self.pushButton32.setGeometry(QtCore.QRect(60, 260, 41, 41))
         self.pushButton32.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton32.setText("")
         self.pushButton32.setCheckable(True)
         self.pushButton32.setAutoExclusive(False)
@@ -478,11 +480,11 @@ class Ui_Form(object):
         self.pushButton33 = QtWidgets.QPushButton(Form)
         self.pushButton33.setGeometry(QtCore.QRect(100, 260, 41, 41))
         self.pushButton33.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton33.setText("")
         self.pushButton33.setCheckable(True)
         self.pushButton33.setAutoExclusive(False)
@@ -491,11 +493,11 @@ class Ui_Form(object):
         self.pushButton34 = QtWidgets.QPushButton(Form)
         self.pushButton34.setGeometry(QtCore.QRect(140, 260, 41, 41))
         self.pushButton34.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton34.setText("")
         self.pushButton34.setCheckable(True)
         self.pushButton34.setAutoExclusive(False)
@@ -504,11 +506,11 @@ class Ui_Form(object):
         self.pushButton35 = QtWidgets.QPushButton(Form)
         self.pushButton35.setGeometry(QtCore.QRect(180, 260, 41, 41))
         self.pushButton35.setStyleSheet("QPushButton{\n"
-"    background-color:white;\n"
-"}\n"
-"QPushButton:checked{\n"
-"    background-color:black;\n"
-"}")
+                                        "    background-color:white;\n"
+                                        "}\n"
+                                        "QPushButton:checked{\n"
+                                        "    background-color:black;\n"
+                                        "}")
         self.pushButton35.setText("")
         self.pushButton35.setCheckable(True)
         self.pushButton35.setAutoExclusive(False)
@@ -520,9 +522,10 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "seara\'s omg neuroset"))
+        Form.setWindowTitle(_translate("Form", "neural network"))
         self.goButton.setText(_translate("Form", "Go"))
-        self.labelresult.setText(_translate("Form", "00000000000000000000000000000000000"))
+        self.labelresult.setText(_translate(
+            "Form", "00000000000000000000000000000000000"))
         self.clearButton.setText(_translate("Form", "Clear"))
         self.exitButton.setText(_translate("Form", "Exit"))
         self.teachButton.setText(_translate("Form", "Teach!"))

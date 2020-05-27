@@ -1,9 +1,6 @@
 import numpy as np
 
 
-
-
-
 class NeuralNetwork():
 
     def __init__(self):
@@ -28,9 +25,7 @@ class NeuralNetwork():
         """
         return x * (1 - x)
 
-
-    def trainpro(self, training_inputs, training_outputs,j):
-
+    def trainpro(self, training_inputs, training_outputs, j):
         """
         We train the model through trial and error, adjusting the
         synaptic weights each time to get a better result
@@ -56,7 +51,7 @@ class NeuralNetwork():
         We train the model through trial and error, adjusting the
         synaptic weights each time to get a better result
         """
-        for j in range(10):
+        for j in range(20):
             for iteration in range(training_iterations):
              # Pass training set through the neural network
                 output = self.think(training_inputs, j)
@@ -72,7 +67,6 @@ class NeuralNetwork():
 
             # Adjust synaptic weights
                 self.synaptic_weights[j] += adjustments
-               
 
     def think(self, inputs, number):
         """
@@ -82,3 +76,6 @@ class NeuralNetwork():
         inputs = inputs.astype(float)
         output = self.sigmoid(np.dot(inputs, self.synaptic_weights[number]))
         return output
+
+
+
