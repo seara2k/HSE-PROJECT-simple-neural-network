@@ -1,13 +1,16 @@
-## searas-simple-neural-network
-launch main.py
+# searas-simple-neural-network
+Нейросеть Вячеслав Литвинов БИВ193
 
-#Requirements:
+Альфа версия с полем 7х5(Field 7x5)
+## Requirements(требования):
+Python 3.7
 
-python 3.7
-
-Modules which i have installed:
-
-  pip install PyQt5 pyside2
+Modules(библиотеки):
+    
+    pip install PyQt5 pyside2
+    pip install numpy
+    
   
-  pip install numpy
-  
+Или же просто:
+
+    pip install -r requirements.txt

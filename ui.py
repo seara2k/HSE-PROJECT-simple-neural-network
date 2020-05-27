@@ -6,7 +6,20 @@
 #
 # WARNING! All changes made in this file will be lost!
 
+import os
+import sys
+from PyQt5 import QtCore, QtGui, QtWidgets
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
 
+    return os.path.join(base_path, relative_path)
+
+Logo = resource_path("Dawnbringer.jpg")
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -16,7 +29,7 @@ class Ui_Form(object):
         Form.setObjectName("Form")
         Form.resize(659, 510)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Dawnbringer.jpg"),
+        icon.addPixmap(QtGui.QPixmap(Logo),
                        QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Form.setWindowIcon(icon)
         Form.setStyleSheet("QWidget{\n"

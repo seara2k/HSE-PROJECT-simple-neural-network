@@ -1,9 +1,14 @@
+import os
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets, QtTest
 from ui import Ui_Form
 from bleeding_edge import NeuralNetwork
 import numpy as np
 
+
+
+def quit():
+    sys.exit()
 
 def button_function(button_name):
     """
