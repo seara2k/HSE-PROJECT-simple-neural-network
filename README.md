@@ -2,7 +2,7 @@
 # EN
 University project
 
-Neural network to identidy numbers (with interface) to get started with machine learning
+Neural network to identidy numbers (with interface) to get started with machine learning, python(PyQt, Numpy) and making exe file from Python script
 
 Has 2 versions with different size of input fields
 
@@ -27,7 +27,7 @@ Or just:
 ```    
 # RU
 
-Курсач - распознавание цифр для старта в машинном обучении
+Курсач - распознавание цифр для старта в машинном обучении, изучения Python и его библиотек PyQt, Numpy, а также создание exe файла из Python скрипта
 
 Есть две версии с разными размерами полей
 
