@@ -9,6 +9,7 @@ Has 2 versions with different size of input fields
 5x3 works good, but 7x3 has a lack of neurons and is very bad in terms of error percentage
 ## Network code is a remade and impoved version of code shown in this videos
 https://youtu.be/kft1AJ9WVDk
+
 https://youtu.be/Py4xvZx-A1E
 
 ## Requirements(требования):
@@ -33,5 +34,6 @@ Or just:
 
 ## При написании кода нейросети сильно помогли видео
 https://youtu.be/kft1AJ9WVDk
+
 https://youtu.be/Py4xvZx-A1E
 
